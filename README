@@ -1,0 +1,11 @@
+1. The package includes 
+    |-              Makefile, start.S, Flowchart_of_ROMbootloader.jpg
+    |- bsp:         BSP, main ,
+    |- drivers:     nandc, sdc, sdc_cntr, scu, serial
+    |- lib:         mini ANSI C library
+
+2. Modify bsp/config.mk to decide text base address of linker (-Ttext), 
+   ex. use BIN with 0x00000000, use ELF with 0x00008000
+
+3. use 'make' to build rom_bl.bin or rom_bl.elf
+
