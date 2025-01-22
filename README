@@ -1,5 +1,5 @@
 1. The package includes 
-    |-              Makefile, start.S, Flowchart_of_ROMbootloader.jpg
+    |-              Makefile, start.S, Flowchart_of_ROMbootloader.jpg, Flowchart_of_Bootloader8K.jpg
     |- bsp:         BSP, main ,
     |- drivers:     nandc, sdc, sdc_cntr, scu, serial
     |- lib:         mini ANSI C library
